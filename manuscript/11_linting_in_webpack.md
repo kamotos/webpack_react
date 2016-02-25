@@ -194,7 +194,7 @@ var common = {
     preLoaders: [
       {
         test: /\.jsx?$/,
-        loaders: ['eslint'],
+        loaders: ['eslint-loader'],
         include: PATHS.app
       }
     ]
